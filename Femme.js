@@ -6,10 +6,10 @@ var count = 0;
 
 
 function preload () {
-  song = loadSound("/assets/femme.mp3");
-    img = loadImage("/assets/ff.jpg");
+  song = loadSound("assets/femme.mp3");
+    img = loadImage("assets/ff.jpg");
     for (var i = 0; i < 13; i++) {
-      letter [i] = loadImage ('/assets/letter' + i +'.png');
+      letter [i] = loadImage ('assets/letter' + i +'.png');
     }
 
 
