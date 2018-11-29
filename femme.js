@@ -6,7 +6,7 @@ var count = 0;
 
 function preload() {
   song = loadSound("femme.mp3");
-  img = loadImage("pic.jpg");
+  img = loadImage("ff.jpg");
   for(var i = 0; i < 13; i++)
     letter[i] = loadImage('letter'+ i + '.png');
 
